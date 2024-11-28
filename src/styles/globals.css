@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeTitles {
+  0%, 33% {
+    opacity: 1;
+  }
+  36%, 100% {
+    opacity: 0;
+  }
+}
+
+.animated-title {
+  display: inline-block;
+  position: relative;
+  font-size: 1.25rem;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  animation: fadeTitles 10s infinite;
+}
+
+.animated-title.active {
+  opacity: 1;
+}
+
+body {
+  @apply bg-gray-50;
+}
+
+
+/* Add smooth scroll and focus styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Animation for project and skill cards */
+.card-hover {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+@keyframes slideAchievement {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-100%);
+  }
+  20% {
+    transform: translateX(-200%);
+  }
+  30% {
+    transform: translateX(-300%);
+  }
+  40% {
+    transform: translateX(-400%);
+  }
+  50% {
+    transform: translateX(-500%);
+  }
+  60% {
+    transform: translateX(-600%);
+  }
+  70% {
+    transform: translateX(-700%);
+  }
+  80% {
+    transform: translateX(-800%);
+  }
+  100% {
+    transform: translateX(0); /* Repeats to start */
+  }
+}
+
+.animate-slide {
+  display: flex;
+  gap: 2rem;
+  animation: slideAchievement 20s infinite linear;
+}
+
+section .relative {
+  overflow: hidden;
+}
+
+section .animate-slide > div {
+  flex: 0 0 25%; /* Each achievement card takes up 25% of the container width */
+}
+
