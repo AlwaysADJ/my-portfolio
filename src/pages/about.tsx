@@ -26,9 +26,7 @@ const About: React.FC = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-primary">Professional Summary</h2>
           <p className="text-gray-700 leading-relaxed">
-            I am a Product Manager with over 5 years of experience in product development, technology strategy, and leading cross-functional teams. 
-            Passionate about creating user-centric digital solutions, I focus on driving business growth through data-driven strategies and continuous optimization. 
-            My work spans across industries like fintech and healthcare, where I’ve led projects that improved user engagement and operational efficiency.
+          A versatile professional with over {yearsOfExperience} years of experience in both product and project management, driving digital initiatives and leading high-performing teams. Expert in managing product lifecycles, executing project sprints, and delivering high-quality, customer-focused solutions. Skilled at balancing strategic vision with operational execution, fostering collaboration among cross-functional teams and stakeholders. Adept at seamlessly adapting to various roles such as coding, research, and design, while identifying opportunities to deliver innovative and impactful results.
           </p>
         </section>
 

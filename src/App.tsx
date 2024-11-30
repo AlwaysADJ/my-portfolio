@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home'
 import Projects from './pages/projects';
 import ProjectDetail from './pages/ProjectDetail';
+import ProductDetail from './pages/ProductDetail';
 import About from './pages/about';
 import Contact from './pages/contact';
 
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
