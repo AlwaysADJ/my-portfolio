@@ -45,7 +45,7 @@ const ProductDetail: React.FC = () => {
       {/* Overview Section */}
       <div className="bg-white p-8 rounded-xl shadow-2xl mb-12">
         <h3 className="text-4xl font-semibold text-gray-800 mb-6">Overview</h3>
-        <p className="text-lg text-gray-700 mb-6">{product.overview}</p>
+        <p className="text-lg text-gray-700 mb-6 text-justify">{product.overview}</p>
 
         {/* Handle display of overview images */}
         {product.overviewImages?.length === 1 ? (
@@ -58,6 +58,7 @@ const ProductDetail: React.FC = () => {
                 className="w-full h-auto rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105"
                 src={image}
                 alt={`Product Overview ${index + 1}`}
+                // loading="lazy"
               />
             ))}
           </div>
@@ -102,9 +103,10 @@ const ProductDetail: React.FC = () => {
               {product.assets.flowcharts.map((flowchart, index) => (
                 <div key={index}>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg shadow-lg bg-white"
                     src={flowchart.imageUrl}
                     alt={flowchart.description || 'Flowchart'}
+                    // loading="lazy"
                   />
                 </div>
               ))}
@@ -121,6 +123,7 @@ const ProductDetail: React.FC = () => {
                     className="w-full rounded-lg shadow-lg"
                     src={mindmap.imageUrl}
                     alt={mindmap.description || 'Mindmap'}
+                    // loading="lazy"
                   />
                 </div>
               ))}
@@ -137,6 +140,7 @@ const ProductDetail: React.FC = () => {
                     className="w-full rounded-lg shadow-lg"
                     src={asset.imageUrl}
                     alt={asset.description || 'Asset'}
+                    // loading="lazy"
                   />
                 </div>
               ))}
@@ -159,6 +163,7 @@ const ProductDetail: React.FC = () => {
                         src={image}
                         alt={`${section.title} image ${idx + 1}`}
                         className="object-cover w-full h-full rounded-lg shadow-lg transition-all duration-300 hover:scale-105"
+                        // loading="lazy"
                     />
                     </div>
                 </div>

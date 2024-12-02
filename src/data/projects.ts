@@ -46,14 +46,14 @@ export const projects: Project[] = [
     highlights: [
       "Deployed FirstBank Virtual Cards on FirstMobile and FirstMonie App, expanding digital payment options and enhancing user convenience.",
       "Managed over 11 million payment cards, significantly boosting FirstBank's card base.",
-      "Increased Mastercard market share from 25% to 45% within a year through strategic initiatives.",
-      "Played a key role in introducing Nigeria's first Visa Multi-Currency Card, setting a new industry standard.",
-      "Executed the 'Free Fuel Friday' campaign in collaboration with Oando Plc, resulting in a 5% increase in transaction volume and a 15% rise in transaction value.",
-      "Achieved a 346% growth in the Staff Credit Card variant within six months through targeted strategies.",
       "Implemented an instant card issuance solution, reducing card production costs by 44%.",
-      "Designed and enforced a card spend policy, increasing the cross-border transaction limit to $5,000.",
-      "Integrated DCC (Dynamic Currency Conversion) transaction markup, contributing to a projected 12% revenue growth.",
-      "Enhanced credit and prepaid card authorization success rates, improving transaction reliability."
+      "Achieved a 346% growth in the Staff Credit Card variant within six months through targeted strategies.",
+      "Improved credit and prepaid card authorization success rates by 20%, facilitating transaction reliability.",
+      "Played a key role in increasing Mastercard market share from 25% to 45% within a year through strategic initiatives.",
+      "Played a key role in introducing Nigeria's first Visa Multi-Currency Card, setting a new industry standard.",
+      "Played a key role in executing the 'Free Fuel Friday' campaign, resulting in a 5% and 15% increase in transaction volume and value respectively.",
+      "Played a key role in designing and enforcing a card spend policy, increasing the cross-border transaction limit to $5,000.",
+      "Played a key role in integrating DCC (Dynamic Currency Conversion) transaction markup, contributing to a projected 12% revenue growth."
     ],
     associatedProjects: [
       {
@@ -71,7 +71,7 @@ export const projects: Project[] = [
           "The Instant Card Issuance Solution enabled real-time debit card issuance at branches, revolutionizing customer service.",
       },
       {
-        id: 104,
+        id: 103,
         type: "project",
         title: "Instant Card Issuance Solution",
         description:
@@ -89,7 +89,7 @@ export const projects: Project[] = [
         type: "project",
         title: "Summer Campaigns",
         description:
-          "Championed the initiative to improve product adoption and usage, enabling seamless travel experience while promoting cross-border transactions,",
+          "Championed the initiative to improve product adoption and usage, enabling seamless travel experience while promoting cross-border transactions.",
         skills: ["Process Optimization", "Cost Reduction", "Card Issuance Technology"],
         impact:
           "Grew FX income and adoption of various card products that support cross-border transactions.",
@@ -143,7 +143,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 1,
+    id: 2,
     type: "project",
     title: "Host-to-Host Solution",
     description:
@@ -181,35 +181,114 @@ export const projects: Project[] = [
     type: "product",
     title: "CivisHealth Solution - HMIS",
     description:
-      "Led the implementation of Health Management Information System (HMIS) for medical institutions, centralizing patient records and optimizing hospital processes.",
-    skills: ["Business Model Definition", "Agile Methodologies", "Health IT"],
+      "Led the implementation of Health Management Information System (HMIS) for medical institutions, centralizing patient records, optimizing hospital processes, and improving patient care.",
+    skills: ["Business Analysis", "Innovation", "Negotiation", "Stakeholder Management", "Process Optimization"],
     impact:
-      "Improved operational efficiency and patient care delivery across multiple hospitals.",
+      "Transformed healthcare service delivery by providing hospitals with tools for real-time patient data management improving decision-making, optimizing workflows, and reducing operational costs.",
     role: "Product Manager",
     imageUrl: "../img/civishealth.png",
     overview:
-      "CivisHealth Solution is a comprehensive HMIS platform with features like patient management, diagnostic tracking, inventory management, and AI integration.",
+      "The idea for Civis Health Solution was born out of a deep understanding of the pressing challenges in the healthcare industry. Fragmented patient records make it difficult for medical practitioners to access complete medical histories, often leading to suboptimal care decisions. Inefficiencies in hospital workflows, coupled with data privacy and security issues, further strain healthcare providers. In addition, the lack of effective appointment and queue management systems contributes to patient dissatisfaction and operational bottlenecks. Recognizing these pain points, I envisioned and developed Civis Health Solution to bridge these gaps. By centralizing patient records to break geographical barriers, streamlining workflows, ensuring robust data security, and optimizing patient management processes, Civis empowers healthcare providers to deliver informed, efficient, and patient-centered care.",
+    overviewImages: [
+      "../img/civismodules.png"
+    ],
+    highlights: [
+      "Conceptualized, designed, and worked closely with the development team to developed Civis Health Solution after extensive engagements with healthcare professionals to understand and address industry pain points.",
+      "Collaborated closely with healthcare professionals for product co-creation, testing, feature introduction and prioritization.",
+      "Launched the Civis Patient Mobile App, enabling patients to access medical records, manage appointments, and communicate with healthcare providers effectively.",
+      "Integrated a robust notification system using email, SMS, and in-app notifications for seamless communication among stakeholders.",
+      "Developed the Civis Control Tower, a central management system for monitoring and managing registered medical institutions.",
+      "Continuously provide strategic leadership, ensuring Civis Health Solution evolves into a comprehensive platform that improves healthcare delivery, optimized workflows, and ensured data security."
+    ],
+    associatedProjects: [
+      {
+        id: 106,
+        type: "project",
+        title: "Civis 2.1",
+        description:
+          "Ongoing project to enhance billing management and introduce business intelligence and AI.",
+        skills: ["Product Strategy", "Customer Relationship Management", "Artificial Inteligence"],
+        impact:
+          "Help medical institutions to identify trends in patient data, services, payment methods, including identifying revenue sources and their contributions to the institutions.",
+        role: "Product Manager",
+        imageUrl: "../img/civis-ai-introduction.png",
+        overview:
+          "Ongoing project to enhance billing management and introduce business intelligence and AI.",
+      },
+      {
+        id: 107,
+        type: "project",
+        title: "CivisMobile App",
+        description:
+          "Implementation of patient application to enable patients have access to their medical records in various medical institutions on one app.",
+        skills: ["Research", "Project Management", "App Development"],
+        impact:
+          "Patients can seamlessly access their medical records, manage appointments, and communicate with healthcare providers effectively",
+        role: "Product Manager",
+        imageUrl: "../img/civismobile.png",
+        overview:
+          "",
+      },
+      {
+        id: 108,
+        type: "project",
+        title: "Civis Control Tower",
+        description:
+          "Development of Admin application to manage registered medical institutions, payment and subscriptions, role-based access control, and incidents",
+        skills: ["Process Optimization", "Cost Reduction", "Business Management"],
+        impact:
+          "Achieved seamless monitoring, support and management of registered medical institutions and subscriptions.",
+        role: "Product Manager",
+        imageUrl: "../img/civis-control-tower.png",
+        overview:
+          "Developed the Civis Control Tower, a central management system for monitoring and managing registered medical institutions",
+      },
+      {
+        id: 105,
+        type: "project",
+        title: "Civis Patient Portal",
+        description:
+          "Based on users feedback, I initiated this project to create patient web applcation, providing an alternative option for patients using the CivisMobile App.",
+        skills: ["Process Optimization", "Cost Reduction", "Card Issuance Technology"],
+        impact:
+          "The web application will further enable patients to access medical records, manage appointments, and communicate with healthcare providers effectively.",
+        role: "Product Manager",
+        imageUrl: "../img/civis-control-tower.png",
+        overview:
+          "",
+      }
+    ],
+    additionalSections: [
+      {
+        title: "Other Initiatives I worked On",
+        content: "Working with the team, I implemented other several initiatives including card-in-control functionalities on FirstMobile to enable customers manage their payment cards on mobile banking application, co-branding partnership with Shell, Forte Oil, and other organizations. I managed credit card processor and reviewed existing SLA, leading to cost reduction on credit card producs. Additionally, leveraging my analytical skills, I championed the Card Business Budget Analysis, making cost and revenue predictions based on existing data, proposed business initiatives, and changing customer behaviour and needs.",
+        images: [
+          "../img/co-branded-cards.png",
+          "../img/card-control.png",
+          "../img/budgeting.jpeg",
+          "../img/negotiation.jpg"
+        ]
+      }
+    ],
     assets: {
+      mindmaps: [
+        {
+          assetType: "Civis Mindmap",
+          imageUrl: "../img/civis-mindmap.png",
+          description: "Migration of users from a less stable wallet card to a loadble and reusable prepaid card to to address reconciliation and loading challenges"
+        }
+      ],
       flowcharts: [
         {
           assetType: "Flowchart",
           imageUrl: "../img/civis-flowchart.png",
           description: "Flowchart showcasing CivisHealth functionalities."
         }
-      ],
+      ]
     },
-    additionalSections: [
-      {
-        title: "CivisHealth Overview",
-        content: "CivisHealth Solution centralizes patient records, improves hospital processes, and integrates AI for better decision-making.",
-        images: [
-          "../img/civishealth-overview.png"
-        ]
-      }
-    ]
   },
   {
-    id: 1,
+    id: 4,
     type: "product",
     title: "Visa Credit Cards (Naira and Dollar Denominated)",
     description:

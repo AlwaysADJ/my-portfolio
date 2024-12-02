@@ -173,7 +173,7 @@ const Home: React.FC = () => {
                 src="../img/building-for-humans.webp" // Replace with the image path of your choice
                 alt="Building for Humans"
                 className="w-full h-auto rounded-lg shadow-lg"
-                loading="lazy"
+                // loading="lazy"
               />
             </div>
           </div>
