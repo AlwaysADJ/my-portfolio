@@ -188,7 +188,7 @@ export const projects: Project[] = [
     role: "Product Manager",
     imageUrl: "../img/civishealth.png",
     overview:
-      "The idea for Civis Health Solution was born out of a deep understanding of the pressing challenges in the healthcare industry. Fragmented patient records make it difficult for medical practitioners to access complete medical histories, often leading to suboptimal care decisions. Inefficiencies in hospital workflows, coupled with data privacy and security issues, further strain healthcare providers. In addition, the lack of effective appointment and queue management systems contributes to patient dissatisfaction and operational bottlenecks. Recognizing these pain points, I envisioned and developed Civis Health Solution to bridge these gaps. By centralizing patient records to break geographical barriers, streamlining workflows, ensuring robust data security, and optimizing patient management processes, Civis empowers healthcare providers to deliver informed, efficient, and patient-centered care.",
+      "The idea for CivisHealth Solution was born out of a deep understanding of the pressing challenges in the healthcare industry. Fragmented patient records make it difficult for medical practitioners to access complete medical histories, often leading to suboptimal care decisions. Inefficiencies in hospital workflows, coupled with data privacy and security issues, further strain healthcare providers. In addition, the lack of effective appointment and queue management systems contributes to patient dissatisfaction and operational bottlenecks. Recognizing these pain points, I envisioned and developed CivisHealth Solution to bridge these gaps. By centralizing patient records to break geographical barriers, streamlining workflows, ensuring robust data security, and optimizing patient management processes, Civis empowers healthcare providers to deliver informed, efficient, and patient-centered care.",
     overviewImages: [
       "../img/civismodules.png"
     ],
@@ -198,7 +198,7 @@ export const projects: Project[] = [
       "Launched the Civis Patient Mobile App, enabling patients to access medical records, manage appointments, and communicate with healthcare providers effectively.",
       "Integrated a robust notification system using email, SMS, and in-app notifications for seamless communication among stakeholders.",
       "Developed the Civis Control Tower, a central management system for monitoring and managing registered medical institutions.",
-      "Continuously provide strategic leadership, ensuring Civis Health Solution evolves into a comprehensive platform that improves healthcare delivery, optimized workflows, and ensured data security."
+      "Continuously provide strategic leadership, ensuring CivisHealth Solution evolves into a comprehensive platform that improves healthcare delivery, optimized workflows, and ensured data security."
     ],
     associatedProjects: [
       {
@@ -253,19 +253,19 @@ export const projects: Project[] = [
         impact:
           "The web application will further enable patients to access medical records, manage appointments, and communicate with healthcare providers effectively.",
         role: "Product Manager",
-        imageUrl: "../img/civis-control-tower.png",
+        imageUrl: "../img/civis-patient-portal.png",
         overview:
           "",
       }
     ],
     additionalSections: [
       {
-        title: "Other Initiatives I worked On",
-        content: "Working with the team, I implemented other several initiatives including card-in-control functionalities on FirstMobile to enable customers manage their payment cards on mobile banking application, co-branding partnership with Shell, Forte Oil, and other organizations. I managed credit card processor and reviewed existing SLA, leading to cost reduction on credit card producs. Additionally, leveraging my analytical skills, I championed the Card Business Budget Analysis, making cost and revenue predictions based on existing data, proposed business initiatives, and changing customer behaviour and needs.",
+        title: "Implementation Journey",
+        content: "The development of CivisHealth Solution was deeply rooted in co-creation, working closely with doctors, nurses, administrative staff, and IT teams to identify challenges and define the ideal solution. Through collaborative workshops, user interviews, and iterative feedback sessions, we co-designed features that aligned with real-world needs. This hands-on approach fostered buy-in from stakeholders and ensured a seamless implementation tailored to their workflows.",
         images: [
-          "../img/co-branded-cards.png",
-          "../img/card-control.png",
-          "../img/budgeting.jpeg",
+          "../img/co-creation-workshop.png",
+          "../img/feature-testing.png",
+          "../img/hospital-training.jpg",
           "../img/negotiation.jpg"
         ]
       }
@@ -289,49 +289,6 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    type: "product",
-    title: "Visa Credit Cards (Naira and Dollar Denominated)",
-    description:
-      "Managed a suite of Visa Credit Cards offering convenient and secure payment solutions for both local and international transactions.",
-    skills: ["Digital Payments", "Card Issuance", "App Development", "Product Launch"],
-    impact:
-      "Increased credit card transaction revenue by 35% and grew the customer base by 20%.",
-    role: "Product Manager",
-    imageUrl: "../img/visa-credit-card.png",
-    overview:
-      "The Visa Credit Card portfolio included enhanced features such as dynamic spending limits, fraud prevention measures, and multi-currency functionality.",
-    highlights: [
-      "Improved product adoption with innovative marketing strategies.",
-      "Collaborated with global partners to deliver seamless payment experiences.",
-    ],
-    associatedProjects: [
-      {
-        id: 101,
-        type: "project",
-        title: "Visa Multi-Currency Card Launch",
-        description:
-          "Successfully launched a multi-currency card enabling seamless international transactions for cardholders in Nigeria.",
-        skills: ["Product Launch", "Customer Experience Design", "Stakeholder Engagement"],
-        impact:
-          "Boosted cross-border transaction volumes and customer satisfaction.",
-        role: "Product Manager",
-        imageUrl: "../img/visa-multi-currency.png",
-        overview:
-          "The Visa Multi-Currency Card offers customers the ability to transact in multiple currencies with competitive rates and enhanced security.",
-      }
-    ],
-    additionalSections: [
-      {
-        title: "Card Features",
-        content: "The Visa Credit Card offers features such as dynamic spending limits, fraud prevention, and multi-currency functionality.",
-        images: [
-          "../img/visa-credit-card-features.png"
-        ]
-      }
-    ]
-  },
-  {
-    id: 5,
     type: "project",
     title: "IBM Middleware Assessment Project",
     description:
@@ -340,7 +297,7 @@ export const projects: Project[] = [
     impact:
       "Enhanced system performance, reduced integration time by 25%, and streamlined data management processes, resulting in improved overall system efficiency.",
     role: "Project Manager",
-    imageUrl: "../img/ibm-middleware.jpg",
+    imageUrl: "../img/esb.jpg",
     overview:
       "The IBM Middleware Assessment Project involved evaluating and implementing IBM Middleware solutions to optimize and integrate enterprise-level systems, ensuring enhanced scalability and data flow.",
     assets: {
@@ -364,72 +321,72 @@ export const projects: Project[] = [
       }
     ]
   },
-  {
-    id: 6,
-    type: "project",
-    title: "FirstBank Virtual Cards",
-    description:
-      "Launched virtual cards for secure digital payments through FirstMobile and FirstMonie apps, expanding digital payment solutions in Nigeria.",
-    skills: ["Digital Payments", "Card Issuance", "App Development", "Product Launch"],
-    impact:
-      "Increased the bank's payment card base by 20% and enhanced customer experience with instant digital card issuance.",
-    role: "Project Lead",
-    imageUrl: "../img/virtual-cards.jpg",
-    overview:
-      "The virtual card solution enables users to make secure online payments, offering features like immediate card issuance and enhanced security.",
-    assets: {
-      flowcharts: [
-        {
-          assetType: "Flowchart",
-          imageUrl: "../img/virtual-cards-launch.png",
-          description: "Flowchart showing the product launch and card issuance process."
-        }
-      ],
-    },
-    additionalSections: [
-      {
-        title: "Product Launch",
-        content: "The virtual card product was designed to cater to the growing need for secure online transactions in the Nigerian market.",
-        images: ["../img/virtual-cards-launch.png"]
-      },
-      {
-        title: "Market Impact",
-        content: "The product saw a 15% increase in active cardholders within 3 months of launch.",
-      }
-    ]
-  },
-  {
-    id: 7,
-    type: "project",
-    title: "Visa Multi-Currency Card",
-    description:
-      "Introduced Visa Multi-Currency Cards to facilitate easy international transactions in multiple currencies, without conversion fees.",
-    skills: ["Product Development", "Foreign Exchange", "Multi-currency Payments", "Market Penetration"],
-    impact:
-      "Enabled customers to save on foreign exchange fees and helped Visa expand its presence in Nigeria.",
-    role: "Product Manager",
-    imageUrl: "../img/visa-multi-currency.jpg",
-    overview:
-      "Visa Multi-Currency Cards provide customers with the ability to make payments in multiple currencies while avoiding foreign exchange conversion fees.",
-    assets: {
-      flowcharts: [
-        {
-          assetType: "Flowchart",
-          imageUrl: "../img/visa-multi-currency-design.png",
-          description: "Flowchart showing the multi-currency card product design and features."
-        }
-      ],
-    },
-    additionalSections: [
-      {
-        title: "Product Design & Development",
-        content: "The card was developed to provide customers with a convenient solution for international payments.",
-        images: ["../img/visa-multi-currency-design.png"]
-      },
-      {
-        title: "Customer Feedback",
-        content: "Customers praised the card for its ease of use and competitive exchange rates.",
-      }
-    ]
-  }
+  // {
+  //   id: 6,
+  //   type: "project",
+  //   title: "FirstBank Virtual Cards",
+  //   description:
+  //     "Launched virtual cards for secure digital payments through FirstMobile and FirstMonie apps, expanding digital payment solutions in Nigeria.",
+  //   skills: ["Digital Payments", "Card Issuance", "App Development", "Product Launch"],
+  //   impact:
+  //     "Increased the bank's payment card base by 20% and enhanced customer experience with instant digital card issuance.",
+  //   role: "Project Lead",
+  //   imageUrl: "../img/virtual-cards.jpg",
+  //   overview:
+  //     "The virtual card solution enables users to make secure online payments, offering features like immediate card issuance and enhanced security.",
+  //   assets: {
+  //     flowcharts: [
+  //       {
+  //         assetType: "Flowchart",
+  //         imageUrl: "../img/virtual-cards-launch.png",
+  //         description: "Flowchart showing the product launch and card issuance process."
+  //       }
+  //     ],
+  //   },
+  //   additionalSections: [
+  //     {
+  //       title: "Product Launch",
+  //       content: "The virtual card product was designed to cater to the growing need for secure online transactions in the Nigerian market.",
+  //       images: ["../img/virtual-cards-launch.png"]
+  //     },
+  //     {
+  //       title: "Market Impact",
+  //       content: "The product saw a 15% increase in active cardholders within 3 months of launch.",
+  //     }
+  //   ]
+  // },
+  // {
+  //   id: 7,
+  //   type: "project",
+  //   title: "Visa Multi-Currency Card",
+  //   description:
+  //     "Introduced Visa Multi-Currency Cards to facilitate easy international transactions in multiple currencies, without conversion fees.",
+  //   skills: ["Product Development", "Foreign Exchange", "Multi-currency Payments", "Market Penetration"],
+  //   impact:
+  //     "Enabled customers to save on foreign exchange fees and helped Visa expand its presence in Nigeria.",
+  //   role: "Product Manager",
+  //   imageUrl: "../img/visa-multi-currency.jpg",
+  //   overview:
+  //     "Visa Multi-Currency Cards provide customers with the ability to make payments in multiple currencies while avoiding foreign exchange conversion fees.",
+  //   assets: {
+  //     flowcharts: [
+  //       {
+  //         assetType: "Flowchart",
+  //         imageUrl: "../img/visa-multi-currency-design.png",
+  //         description: "Flowchart showing the multi-currency card product design and features."
+  //       }
+  //     ],
+  //   },
+  //   additionalSections: [
+  //     {
+  //       title: "Product Design & Development",
+  //       content: "The card was developed to provide customers with a convenient solution for international payments.",
+  //       images: ["../img/visa-multi-currency-design.png"]
+  //     },
+  //     {
+  //       title: "Customer Feedback",
+  //       content: "Customers praised the card for its ease of use and competitive exchange rates.",
+  //     }
+  //   ]
+  // }
 ];
