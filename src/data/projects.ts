@@ -300,18 +300,18 @@ export const projects: Project[] = [
     imageUrl: "../img/esb.jpg",
     overview:
       "The IBM Middleware Assessment Project involved evaluating and implementing IBM Middleware solutions to optimize and integrate enterprise-level systems, ensuring enhanced scalability and data flow.",
-    assets: {
-      flowcharts: [
-        {
-          assetType: "Flowchart",
-          imageUrl: "../img/ibm-middleware-architecture.png",
-          description: "Flowchart illustrating the architecture and integration process of the IBM Middleware solution."
-        }
-      ],
-    },
+    // assets: {
+    //   flowcharts: [
+    //     {
+    //       assetType: "Flowchart",
+    //       imageUrl: "../img/ibm-middleware-architecture.png",
+    //       description: "Flowchart illustrating the architecture and integration process of the IBM Middleware solution."
+    //     }
+    //   ],
+    // },
     additionalSections: [
       {
-        title: "Integration Strategy",
+        title: "Project Scope",
         content: "The project focused on evaluating middleware technologies and integrating them with existing enterprise applications to optimize scalability and data management.",
         images: ["../img/ibm-middleware-architecture.png"]
       },
