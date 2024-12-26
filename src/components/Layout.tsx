@@ -21,7 +21,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {/* Footer Section */}
       <footer className="bg-gray-900 text-white py-6 text-center text-sm">
         <p className="text-lg font-semibold">© {new Date().getFullYear()} Joshua Adenuga's Portfolio</p>
-        <p>Crafted with ❤️ and React</p>
+        <p>Crafted with ❤️ and Passion</p>
       </footer>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const calculateYearsOfExperience = () => {
   const startDate = new Date("2017-06-01");
@@ -85,13 +86,11 @@ const About: React.FC = () => {
         {/* CV Download Section */}
         <section className="mb-8">
           <p className="text-gray-700">
-            For more details on my professional journey, <a 
-              href="https://drive.google.com/file/d/1fUX-E0krF1dEFD0_bBMTc1LuPcNdOqq3/view?usp=sharing" 
-              className="text-blue-500 hover:text-blue-700 underline"
-              target="_blank"
-              rel="noopener noreferrer">
-              view my CV here.
-            </a>
+            For more details on my professional journey -  
+            <Link to="/contact" 
+              className="text-blue-500 hover:text-blue-700 underline"> 
+              contact me.
+            </Link>
           </p>
         </section>
 

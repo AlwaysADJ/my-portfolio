@@ -276,7 +276,7 @@ const Home: React.FC = () => {
           <p>
             Connect with me:{" "}
             <a href="mailto:adesegun.j.adenuga@gmail.com" className="text-blue-400">
-              adesegun.j.adenuga@gmail.com
+              Send email
             </a>
           </p>
           <div className="flex justify-center space-x-6 mt-4">
