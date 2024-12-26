@@ -81,6 +81,10 @@ const Home: React.FC = () => {
                     Get in Touch
                     </button>
                 </Link>
+                <button>
+                      <a className="bg-blue-600 text-white py-3 px-8 rounded-full text-lg font-semibold transition-all hover:bg-blue-700 hover:shadow-xl inline-block mt-4 ml-4" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=adesegun-joshua-adenuga" target="_blank">Follow on LinkedIn
+                      </a>
+                  </button>
                 </div>
             </div>
             </div>
@@ -298,5 +302,6 @@ const Home: React.FC = () => {
     </div>
   );
 };
+
 
 export default Home;

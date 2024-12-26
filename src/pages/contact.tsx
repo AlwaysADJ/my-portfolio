@@ -1,18 +1,19 @@
-import React, { useState, FormEvent } from 'react';
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact: React.FC = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [state, handleSubmit] = useForm("mvggzdja");
 
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    // In a real application, you would handle form submission here
-    alert('Thank you for your message! I will get back to you soon.');
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
+  if (state.succeeded) {
+    return (
+      <div className="max-w-md mx-auto text-center">
+        <h1 className="text-4xl font-bold mb-8">Thank You!</h1>
+        <p className="text-gray-700">
+          Your message has been sent successfully. I will get back to you soon!
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-md mx-auto">
@@ -33,10 +34,14 @@ const Contact: React.FC = () => {
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="name"
             type="text"
+            name="name"
             placeholder="Your Name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
             required
+          />
+          <ValidationError 
+            prefix="Name" 
+            field="name" 
+            errors={state.errors}
           />
         </div>
         
@@ -51,10 +56,14 @@ const Contact: React.FC = () => {
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="email"
+            name="email"
             placeholder="Your Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
             required
+          />
+          <ValidationError 
+            prefix="Email" 
+            field="email" 
+            errors={state.errors}
           />
         </div>
         
@@ -68,10 +77,14 @@ const Contact: React.FC = () => {
           <textarea
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32"
             id="message"
+            name="message"
             placeholder="Your Message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
             required
+          />
+          <ValidationError 
+            prefix="Message" 
+            field="message" 
+            errors={state.errors}
           />
         </div>
         
@@ -79,21 +92,30 @@ const Contact: React.FC = () => {
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
+            disabled={state.submitting}
           >
             Send Message
           </button>
         </div>
       </form>
 
-      <div className="text-center mt-6">
-        <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
-        <p className="text-gray-600">
-          Email: adesegun.j.adenuga@gmail.com
-          <br />
-          LinkedIn: /in/adesegun-joshua-adenuga/
-          <br />
-          Phone: (555) 123-4567
-        </p>
+      <div className="flex justify-center space-x-6 mt-4">
+        <a
+          href="https://www.linkedin.com/in/adesegun-joshua-adenuga/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-200 transition-colors"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/AlwaysADJ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-200 transition-colors"
+        >
+          GitHub
+        </a>
       </div>
     </div>
   );
