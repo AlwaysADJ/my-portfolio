@@ -143,40 +143,6 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 2,
-    type: "project",
-    title: "Host-to-Host Solution",
-    description:
-      "Implemented a seamless payment integration system across 3 African countries, enabling real-time transactions and data exchange between multiple financial institutions.",
-    skills: ["Payment Integration", "Cross-border Transactions", "API Development", "Project Management"],
-    impact:
-      "Enhanced cross-border transaction efficiency, reducing processing time by 30% and improving financial institutions' interoperability.",
-    role: "Product and Project Manager",
-    imageUrl: "../img/host-to-host.png",
-    overview:
-      "Host-to-Host Solution integrates multiple financial institutions into a single platform, facilitating secure and fast payment processing.",
-    assets: {
-      flowcharts: [
-        {
-          assetType: "Flowchart",
-          imageUrl: "../img/host-to-host-architecture.png",
-          description: "Flowchart showcasing the architecture of the Host-to-Host solution."
-        }
-      ],
-    },
-    additionalSections: [
-      {
-        title: "Challenges & Solutions",
-        content: "Dealt with network connectivity issues in remote areas by optimizing for intermittent connections.",
-      },
-      {
-        title: "Solution Architecture",
-        content: "The solution uses secure protocols to connect multiple financial institutions and ensure data integrity during transactions.",
-        images: ["../img/host-to-host-architecture.png"]
-      },
-    ]
-  },
-  {
     id: 3,
     type: "product",
     title: "CivisHealth Solution - HMIS",
@@ -286,6 +252,40 @@ export const projects: Project[] = [
         }
       ]
     },
+  },
+  {
+    id: 2,
+    type: "project",
+    title: "Host-to-Host Solution",
+    description:
+      "Implemented a seamless payment integration system across 3 African countries, enabling real-time transactions and data exchange between multiple financial institutions.",
+    skills: ["Payment Integration", "Cross-border Transactions", "API Development", "Project Management"],
+    impact:
+      "Enhanced cross-border transaction efficiency, reducing processing time by 30% and improving financial institutions' interoperability.",
+    role: "Product and Project Manager",
+    imageUrl: "../img/host-to-host.png",
+    overview:
+      "Host-to-Host Solution integrates multiple financial institutions into a single platform, facilitating secure and fast payment processing.",
+    assets: {
+      flowcharts: [
+        {
+          assetType: "Flowchart",
+          imageUrl: "../img/host-to-host-architecture.png",
+          description: "Flowchart showcasing the architecture of the Host-to-Host solution."
+        }
+      ],
+    },
+    additionalSections: [
+      {
+        title: "Challenges & Solutions",
+        content: "Dealt with network connectivity issues in remote areas by optimizing for intermittent connections.",
+      },
+      {
+        title: "Solution Architecture",
+        content: "The solution uses secure protocols to connect multiple financial institutions and ensure data integrity during transactions.",
+        images: ["../img/host-to-host-architecture.png"]
+      },
+    ]
   },
   {
     id: 4,
