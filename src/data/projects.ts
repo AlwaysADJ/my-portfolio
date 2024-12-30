@@ -143,7 +143,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 3,
+    id: 2,
     type: "product",
     title: "CivisHealth Solution - HMIS",
     description:
@@ -254,7 +254,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 2,
+    id: 3,
     type: "project",
     title: "Host-to-Host Solution",
     description:
